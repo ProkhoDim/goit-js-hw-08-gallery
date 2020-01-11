@@ -2,7 +2,6 @@
 import images from './gallery-items.js';
 
 const galleryList = document.querySelector('ul.js-gallery');
-
 const lightBoxELem = document.querySelector('div.lightbox');
 const lightBoxImage = lightBoxELem.querySelector('.lightbox__image');
 const closeLightBoxBtn = document.querySelector('button[data-action="close-lightbox"]');
