@@ -101,31 +101,3 @@ function imageSlide(event) {
     lightBoxImage.setAttribute('src', `${prevImgSrc()}`);
   }
 }
-
-// const prevBtn = document.querySelector('.prev');
-// const nextBtn = document.querySelector('.next');
-
-// const getCurrentImagePosition = () => {
-//     const currentImageId = document.querySelector('.lightbox__image').getAttribute('src');
-//     const imageInObj = images.find(({ original }) => original === currentImageId);
-//     const position = images.indexOf(imageInObj);
-
-//     return position;
-// }
-
-// const nextImg = () => {
-//     const position = getCurrentImagePosition();
-//     const newImageSrc = images[position + 1].original;
-
-//     document.querySelector('.lightbox__image').setAttribute('src', newImageSrc);
-// }
-
-// const prevImg = () => {
-//     const position = getCurrentImagePosition();
-//     const newImageSrc = images[position - 1].original;
-
-//     document.querySelector('.lightbox__image').setAttribute('src', newImageSrc);
-// }
-
-// prevBtn.addEventListener('click', prevImg);
-// nextBtn.addEventListener('click', nextImg);
